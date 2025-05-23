@@ -1,0 +1,153 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(to bottom, #ccc, #ccc);
+  scroll-behavior: smooth;
+  font-size: 18px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 50px;
+  background-color: transparent;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1000;
+}
+
+.nav-left a,
+.nav-right a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.nav-left a.active {
+  background: linear-gradient(to right, #a000ff, #00eaff);
+  color: white;
+  border-radius: 8px;
+  padding: 6px 12px;
+}
+
+.nav-right {
+  display: flex;
+  align-items: center;
+}
+
+.nav-right input {
+  padding: 6px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  margin-left: 10px;
+}
+
+section {
+  min-height: 100vh;
+  padding: 140px 60px 80px 60px;
+}
+
+.home .content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+}
+
+.home .text-left {
+  max-width: 600px;
+  text-align: left;
+}
+
+.home .text-left h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.home .text-left p {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.home .text-left button {
+  margin-top: 20px;
+  padding: 18px 20px;
+  background: linear-gradient(to right, #a000ff, #00eaff);
+  border: none;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 25px;
+  cursor: pointer;
+}
+
+.image-right {
+  max-width: 460px;
+  width: 100%;
+}
+
+.image-right img {
+  width: 100%;
+  height: auto;
+  max-width: 460px;
+  display: block;
+}
+
+.sobre .content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.sobre .text-left {
+  max-width: 600px;
+}
+
+.sobre .image-right {
+  width: 200px; /* largura fixa da imagem */
+}
+
+.sobre .image-right img {
+  width: 200px; /* tamanho fixo da imagem */
+  height: auto;
+  display: block;
+  border-radius: 15px; /* opcional */
+}
+
+.sobre h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.sobre p {
+  font-size: 18px;
+  line-height: 1.8;
+  max-width: 600px;
+}
+
+.roxo-btn {
+  margin-top: 30px;
+  padding: 12px 24px;
+  font-weight: bold;
+  font-size: 16px;
+  color: #000;
+  background: linear-gradient(to right, #d259ff, #00eaff);
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+}
+
+.patinhas {
+  font-size: 36px;
+  color: gray;
+  margin-left: 50px;
+}
